@@ -1,0 +1,31 @@
+# Root-level ignores
+.DS_Store
+Thumbs.db
+*.log
+*.pid
+*.bak
+
+# Editor settings
+.vscode/
+.idea/
+
+# ----------------------
+# Frontend (React + Vite)
+# ----------------------
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.vite/
+
+# Optional: Vite cache or static analysis
+frontend/.cache/
+frontend/.eslintcache
+
+# ----------------------
+# Backend (Express)
+# ----------------------
+express/node_modules/
+express/.env
+express/logs/
+express/tmp/
